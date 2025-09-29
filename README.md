@@ -17,7 +17,7 @@ response to different training volumes between young and old, since the data on 
 at best [SOURCES]. In short, multiple studies find reduced responses to resistance training (RT) in terms
 of muscle mass and/or -strength, presumably due to anabolic resistance in the old [SOURCES]. However, 
 variations in RT responses seem apparent in both young and old [SOURCES], and therefore it is not clear
-whether age *per se* is a direct contributor to anabolic resistance or not. The primary outcomes of the
+whether age *per se* is a direct contributor to reduced RT adaptations or not. The primary outcomes of the
 present study were changes in upper- and lower body muscle mass and strength, gathered at baseline,
 after ~6 weeks of RT (12/24 sessions), and after ~12 weeks of RT. To characterise these changes, or the 
 lack thereof, biological samples (muscle biopsies and blood draws) were taken at baseline, after 3 weeks
