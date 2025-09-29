@@ -1,7 +1,7 @@
 ---
 title: "report"
 bibliography: resources/report-bib.bib
-csl: resources/ejap.csl
+csl: resources/acta.csl
 format: html
 ---
 
