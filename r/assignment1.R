@@ -55,16 +55,17 @@ fig1_basic <- plot.dat %>%
                      expand = c(0,0)) +
   scale_x_discrete(label = c("Baseline", "Midway", "Post")) +
   
-  theme(axis.title.x = element_blank()) +
+  theme(axis.title.x = element_blank(),
+        panel.background = element_rect(fill = "lightblue")) +
   
   labs(x = "", 
        y = "Peak Torque (Nm)",
        title = "Peak Torque in young vs. old with low vs. mod volumes")
 
 ggsave(
-  file = "fig1_basic.pdf",
+  file = "fig1_basic.png",
   plot = fig1_basic,
-  device = "pdf",
+  device = "png",
   path = "./figures",
   width = 174,
   height = 234*0.5,
@@ -109,12 +110,13 @@ in young and old. Midway = after 12 RT sessions, Post = after 24 RT sessions.") 
   theme(axis.title.x = element_blank(),
         axis.title.y = element_text(size = 10),
         plot.title = element_text(hjust = 0.5, face = "bold"),
-        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8))
+        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8),
+        panel.background = element_rect(fill = "pink"))
 
 ggsave(
-  file = "fig2_colours.pdf",
+  file = "fig2_colours.png",
   plot = fig2_colours,
-  device = "pdf",
+  device = "png",
   path = "./figures",
   width = 174,
   height = 234*0.5,
@@ -162,14 +164,15 @@ in young and old. Midway = after 12 RT sessions, Post = after 24 RT sessions.") 
   theme(axis.title.x = element_blank(),
         axis.title.y = element_text(size = 10),
         plot.title = element_text(hjust = 0.5, face = "bold"),
-        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8))
+        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8),
+        panel.background = element_rect(fill = "yellow"))
 
 
 
 ggsave(
-  file = "fig3_facet.pdf",
+  file = "fig3_facet.png",
   plot = fig3_facet,
-  device = "pdf",
+  device = "png",
   path = "./figures",
   width = 174,
   height = 234*0.5,
@@ -233,14 +236,15 @@ in young and old. Midway = after 12 RT sessions, Post = after 24 RT sessions.") 
   theme(axis.title.x = element_blank(),
         axis.title.y = element_text(size = 10),
         plot.title = element_text(hjust = 0.5, face = "bold"),
-        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8))
+        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8),
+        panel.background = element_rect(fill = "orange"))
 
 
 
 ggsave(
-  file = "fig4_mean.pdf",
+  file = "fig4_mean.png",
   plot = fig4_mean,
-  device = "pdf",
+  device = "png",
   path = "./figures",
   width = 174,
   height = 234*0.5,
@@ -313,14 +317,15 @@ in young and old. Midway = after 12 RT sessions, Post = after 24 RT sessions.") 
   theme(axis.title.x = element_blank(),
         axis.title.y = element_text(size = 10),
         plot.title = element_text(hjust = 0.5, face = "bold"),
-        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8)) 
+        plot.caption = element_text(hjust = 0.5, face = "italic", size = 8),
+        panel.background = element_rect(fill = "green")) 
 
 
 
 ggsave(
-  file = "fig5_raw.pdf",
+  file = "fig5_raw.png",
   plot = fig5_raw,
-  device = "pdf",
+  device = "png",
   path = "./figures",
   width = 174,
   height = 234*0.5,
