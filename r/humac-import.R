@@ -20,7 +20,7 @@ read_humac <- function(file) {
   for(i in 1:length(sheets)) {
     
     # Meta data
-    meta <- read_excel(file, sheet = sheets[i], range = "A1:I7")
+    meta <- read_excel(file, sheet = sheets[i], range = "A1:I7", .name_repair = "unique_quiet")
     
     # Participant id and date recorde in file
     id1 <- data.frame(meta)[2,7]
@@ -31,7 +31,8 @@ read_humac <- function(file) {
     
     ## Speeds, read and organize data
     complete_sheet <- read_excel(file, sheet = sheets[i],
-                                 range = "A11:E166") %>%
+                                 range = "A11:E166",
+                                 .name_repair = "unique_quiet") %>%
       data.frame()
     
     speed60 <- complete_sheet[1:22,]
