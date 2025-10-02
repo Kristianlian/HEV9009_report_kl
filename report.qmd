@@ -1,9 +1,11 @@
 ---
-title: "report"
+title: "ReLiEf Study"
 bibliography: resources/report-bib.bib
 csl: resources/acta.csl
 format: html
 ---
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzRzaWFxc3h6dGtwb2IxaWZ1dzN4cjZhMTVieGNsNGVrdWNqMGZ0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e9hRgPKipZqgy8sYFP/giphy.gif)
+
 
 ## **Background**
 
