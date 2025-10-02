@@ -5,8 +5,27 @@ csl: resources/acta.csl
 format: html
 ---
 
-**Background**
+## **Background**
 
 The data in this repository were collected in the "ReLiEf" study. In this study, we recruited young (<30yrs) and old (>70yrs) untrained individuals that exercised one leg and arm with a low training volume condition (low, 1set) and the other leg and arm with a moderate training volume condition (mod, 3sets). The main aim was to investigate the response to different training volumes between young and old, since the data on this topic is equivocal at best [SOURCES]. In short, multiple studies find reduced response to resistance training (RT), measured as skeletal muscle mass and/or -strength, presumably due to age dependent anabolic resistance in the old [SOURCES]. However, variations in RT responsen seem apparent in both young and old [SOURCES], and therefore it is unclear whether age *per se* is a direct contributor to reduced RT adaptations or not. The primary outcomes of the present study were changes in upper- and lower body muscle mass and strength, sampled at baseline, after ~6 weeks of RT (12/24 sessions), and after ~12 weeks of RT. To further characterise these changes, or the lack thereof, biological samples (muscle biopsies and blood draws) were taken at baseline, after 3 (6 sessions) weeks of RT and after 12 weeks of RT. 
+
+## **Figures**
+
+
+![](figures/fig1_basic.pdf) | ![](figures/fig2_colours.pdf)
+---- | ----
+![](figures/fig3_facet.pdf) | ![](figures/fig4_mean.pdf)
+![](figures/fig5_raw.pdf) | 
+
+
+Did you know that you also can make an interactive PDF that others can draw on and edit in html? I didnt!
+
+![](figures/fig1_basic.pdf){width=100% height=400px} 
+
+
+
+
+
+
 
 
